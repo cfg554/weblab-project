@@ -22,6 +22,9 @@ body {
   text-align: center;
 }
 
+.u-textJustify{
+  text-align: justify;
+}
 .navContainer {
   padding: var(--s) var(--m);
   background-color: var(--primary);
@@ -64,4 +67,14 @@ body {
 
   /* it is optional, for making this div centered in parent*/
   margin: 0 auto;
+}
+
+
+.u-flex{
+  display: flex;
+}
+
+.subContainer{
+  flex-basis: 0;
+  flex-grow: 1;
 }
